@@ -87,3 +87,10 @@ function showBox1() {
       </div>`;
   mainContainer.insertAdjacentHTML("beforeend", box1Content);
 }
+
+// git init
+// git add README.md
+// git commit -m "first commit"
+// git branch -M main
+// git remote add origin https://github.com/FrandevF/dise-Arq.git
+//
