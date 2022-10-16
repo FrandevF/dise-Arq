@@ -84,8 +84,8 @@ function showBox1() {
           <p>Los recorridos de la vivienda son bastantes dinámicos, se observa bastante comodidad en este aspecto</p>
           <img src="/assets/recorrido1.jpeg" alt="">
           </div>
-          <div class="info8">
-          <a href="/assets/galeria1/galeria1.rar" download="foto1">Descargar galeria <span>(.rar)</span></a>
+          <div class="info8 btnD">
+          <a href="/assets/galeria1/galeria1.rar" download="Galería vivienda 1.rar">Descargar galeria <span>(.rar)</span></a>
           </div>
 
       </div>`;
@@ -123,38 +123,54 @@ Si bien en la vivienda predominan las transparencias por medio de grandes paños
         </p>
         
         </div>
-         <div class="info3"><img src="/assets/cucu.jpg" alt="">
+         <div class="info3">
+         <img src="/assets/galeria2/privPu.jpg" alt="">
+        <img src="/assets/galeria2/privPu2.jpg" alt="">
          <p>
-         Podemos observar, el ingreso a esta vivienda lleva directamente a una especie de patio interior el cual conecta el interior con el exterior, y a su vez, este patio conecta todas las partes de la casa, en la imagen se observa la composicion de la vivienda.<br><br>
-         los espacios de la vivienda estan unidos entre si por el mismo patio interior, este patio interior tiene el ingreso general y se cierra al fondo, haciendo la forma que se ve en la imagen, a su vez cada local esta conectado mediante vanos, los locales que apuntan al patio trasero tienen salida a este.
+        Podemos observar la distribución de espacios publicos y privados, donde se observa lo mencionado anteriormente de la division de espacios. <br><br><br>
+Color naranja: Privado
+Color amarillo:Publico
+Color celeste: Publico en exteriores
          </p>
          </div>
           <div class="info4">
-          <img src="/assets/estarComedor.jpg" alt="">
-          <p>En una de las celulas de esta vivienda podemos observar un Estar-Comedor bastante amplio, con un sofá mirando hacia un televisor, y una mesa comedor , el techo a gran altura y aumentando hacia un lado da una sensacion de que el lugar es más amplio, complementando con el ventanal que da a su patio, por el cual tambien entra mucha luz natural.
+          <img src="/assets/galeria2/4.jpg" alt="">
+          <p>A primera vista podemos ver la estructura de hormigón, la cual junto a todos los ventanales con aberturas negras le dan un aspecto moderno y muy limpio. <br><br><br>
+Es interesante ver esta estructura, una losa de piso de forma rectangular, levemente levantada del piso lo cual también la hace destacar más, y otra losa con dimensiones mas pequeñas de techo, teniendo entre ellas y con visuales al exterior, los ventanales del espacio público de la vivienda, también teniendo en un costado una galería con lo que parece un asador, en dónde puede colocarse una mesa y compartir momentos en familia o amigos.
+En general hay mucha transparencia mediante los paños de cristal que destacan mucho.
+
 </p></div>
           <div class="info5">
-          <img src="/assets/cocina1.jpg" alt="">
-          <p>En cuanto a la cocina, podemos observar que tiene un aspecto muy moderno, con el techo siguiendo la forma general y rompiendo el paralelismo común de techo-piso.
+          <img src="/assets/galeria2/5.jpg" alt="">
+          <p><br><br>Si bien en la vivienda predominan las transparencias por medio de grandes paños vidriados, se la diseño íntegramente con criterios bioclimáticos (orientación, espacios intermedios, sistemas pasivos de control solar y técnicas constructivas) a fin de garantizar el confort ambiental y reducir los consumos de energías no renovables.<br><br><br><br><br>
+          El concepto básico de la casa Ribera 1 es la sencillez y transparencia, el desafío radico en transformar una tecnología constructiva económica en recursos y tradicional en ejecución para lograr materializar los preceptos conceptuales que sirvieron como punto de partida en el proyecto.
           <br><br>
-          La cocina tiene un buen aprovechamiento del espacio, con una isla con horno, muebles suficientes y espacio para que al menos 2 personas puedan cocinar cómodas.
           </p>
           </div>
-          <div class="info6">
-          <img src="/assets/galeria1.jpg" alt="">
-          
-          <p>En su patio se puede observar una galería, no muy amplia, pero con una mesa para compartir actividades en familia o con amigos fuera de un lugar cerrado, esta galería no es la excepción en cuanto al techo lo que permite seguir con la estética de la casa, tiene buena iluminacion de noche y los acabados en madera hacen que se vea agradable.</p>
-          <img src="/assets/galeria2.jpg" alt="">
+          <div class="info6Styles info6">
+        
+          <img src="/assets/galeria2/interior1.jpg" alt="" class="XD">
+          <img src="/assets/galeria2/cocina.jpg" alt="" class="XD">
+
+          <p><br><br> El interior de la casa esta diseñado con un estilo muy moderno, una buena combinacion con pocos colores, y hermosos acabados en madera.
+          <br><br><br><br>La cocina, es pequeña pero muy minimalista, predominando el color blanco y con una isla central con lavadero y lo que parece ser un anafe.</p>
           </div>
           <div class="info7">
-          <p>Los recorridos de la vivienda son bastantes dinámicos, se observa bastante comodidad en este aspecto</p>
-          <img src="/assets/recorrido1.jpeg" alt="">
+          <img src="/assets/galeria2/galeria.jpg" alt="">
+          <p>Tambien tenemos una galería, la cual da tambien entrada y vistas a la vivienda gracias a los ventanales, la misma cuenta con espacio suficiente como para una mesa familiar, o para hacer actividades entre familia y amigos, con un asador al costado para el comfort de las personas.<br><br>Esta galería tiene de techo la misma losa que funciona como techo de la vivienda, dandole uniformidad a todo el conjunto, permitiendo tambien vistas al exteriorl.
+        </p>
           </div>
+
           <div class="info8">
-          <a href="/assets/galeria1/galeria1.rar" download="foto1">Descargar galeria <span>(.rar)</span></a>
+          <p>Los recorridos de la vivienda son bastantes dinámicos, la division de sectores publicos y privados ayudan con la comodidad de los recorridos</p>
+          <img src="/assets/recorrido2.jpeg" alt="">
+          </div>
+          <div class="info9 btnD">
+          <a href="/assets/galeria2/galeriaRAR.rar" download="Galería Vivienda 2.rar">Descargar galeria <span>(.rar)</span></a>
           </div>
 
       </div>`;
+
   mainContainer.insertAdjacentHTML("beforeend", box1Content);
 }
 
