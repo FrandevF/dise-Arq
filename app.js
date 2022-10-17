@@ -126,14 +126,15 @@ Si bien en la vivienda predominan las transparencias por medio de grandes paños
         
         </div>
          <div class="info3">
-          <p>
+           <img src="/assets/galeria2/privPu2.jpg" alt="">
+         <p>
         Podemos observar la distribución de espacios publicos y privados, donde se observa lo mencionado anteriormente de la division de espacios. <br><br><br>
 Color naranja: Privado
 Color amarillo:Publico
 Color celeste: Publico en exteriores
          </p>
-         <img src="/assets/galeria2/privPu.jpg" alt="">
-        <img src="/assets/galeria2/privPu2.jpg" alt="">
+         
+       
         
          </div>
           <div class="info4">
