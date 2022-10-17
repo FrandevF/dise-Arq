@@ -325,6 +325,32 @@ sans-serif;
     align-items: center;
 }
 
+.back {
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+    width: 90px;
+    position: relative;
+
+}
+
+.back button {
+    background-color: #696b67;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 17px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 1rem;
+    text-shadow: 2px 2px 4px #bebbbb;
+}
+
 .info3__2 p {
     background-color: rgba(0, 0, 0, 0.5);
 }

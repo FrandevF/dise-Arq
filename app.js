@@ -16,7 +16,9 @@ const mainContainer = document.querySelector(".main-container");
 function showBox1() {
   const hiddenAll = document.querySelector("#flexc");
   hiddenAll.style.display = "none";
+
   const box1Content = `<div id="box1">
+  
         <h1>Vivienda 1: SANTO TOMÉ, ARGENTINA</h1>
         <div class="presentacion">
           <img src="/assets/v1Presentation2.jpg" class="presentation-image" />
@@ -96,7 +98,7 @@ function showBox2() {
   const hiddenAll = document.querySelector("#flexc");
   hiddenAll.style.display = "none";
   const box1Content = `<div id="box1">
-        <h1>Vivienda 2: SANTO TOMÉ, ARGENTINA</h1>
+        <h1>Vivienda 2:Casa Ribera</h1>
         <div class="presentacion">
           <img src="/assets/galeria2/1.jpg" class="presentation-image" />
           
@@ -178,75 +180,62 @@ function showBox3() {
   const hiddenAll = document.querySelector("#flexc");
   hiddenAll.style.display = "none";
   const box1Content = `<div id="box1">
-        <h1>Vivienda 1: SANTO TOMÉ, ARGENTINA</h1>
+        <h1>Vivienda 3 Casa Quinta </h1>
         <div class="presentacion">
-          <img src="/assets/v1Presentation2.jpg" class="presentation-image" />
+          <img src="/assets/galeria3/presentacion.jpg" class="presentation-image" />
           <p class="general-description">
-            Se trata de una vivienda para una pareja joven, ubicada en un barrio
-            cerrado en las afuera de la ciudad de Santa Fe. El crédito significó
-            la oportunidad de impulsar una primera instancia de construcción,
-            permitiendo una ocupación temprana del inmueble. A esta primer
-            etapa, le sucederían gradualmente una serie de ampliaciones
-            coordinadas en cada caso según las prioridades emergentes de sus
-            ocupantes. Las particularidades del crédito, por otro lado,
-            permitían interpretarlo como un escenario propicio donde
-            laboratorizar hipótesis de crecimiento y adaptaciones del espacio
-            doméstico a las progresivas re-configuración/es de la escena
-            familiar.
+            La primera reunión con el comitente se sucedió en el sitio, y en el recorrido por el mismo, se manifestó el anhelo por un espacio en “contacto con la naturaleza”, imaginaban: fin de semana salir de la  ciudad  y arribar a un ambiente en donde predominara el “verde”.   Este espacio se manifestó en una gran galería, y se constituyó en el componente articulador del proyecto.
           </p>
         </div>
         <div class="info1">
-          <img src="/assets/foto1-2.png" alt="" class="img2"/>
+          <img src="/assets/galeria3/2.jpg" alt="" class="img2"/>
           <p>
-            La posición del terreno con respecto a la manzana, se puede observar
-            que se encuentra en uno de los lados de la misma, por lo que no se
-            encuentra en ninguna esquina. La orientación con respecto al ingreso
-            parece ser sur-oeste.<br><br>
-            La posición del edificio con respecto al ambiente está definida mediante el ingreso a la propiedad, en este caso el ingreso es desde el suroeste, donde podemos observar de frente y darnos cuenta que las ubicaciones de los primeros locales de la vivienda se  intersecan de forma irregular, dándonos una hipótesis de que es una vivienda especial y diferente a las que cotidianamente vemos. Ya definida la ubicación del ingreso nos damos cuenta que el amanecer y el atardecer suceden desde los costados del terreno, además, alrededor del barrio la naturaleza es básica, lo que podemos deducir que se aprovecha al máximo la luz solar.
+            Se puede observar que el terreno tiene 150 [m2], una forma casi rectangular, ya que en una de las esquinas del mismo es diagonal, y que esta ubicada en la esquina de la manzana<br><br><br> La vivienda tiene forma de un prisma rectangular, es una casa de estructura simple y cotidiana, sus colores entonan desde el negro a marrón madera y un rojo ladrillo en los muros. 
           </p>
         </div>
         <div class="info2">
-        <img src="/assets/celulas.jpg" alt="" class="img2"/>
-        <p>  La idea del diseño empleado, es principalmente como si fuera un "Átomo", el cual se divide en "celulas"(siendo estos los locales de la vivienda). Entre estas estan las células sociales o íntimas y células de apoyo tanto para espacios interiores como para los espacios exteriores y semi-cubiertos.  Se buscó conectar cada celula con un espacio exterior(El patio interior), y que a su vez esten casi separadas entre sí, con un vano que las una, definiendo así la privacidad en cada una de estas.
-          </p>
+        <img src="/assets/galeria3/nat.jpg" alt="" class="img2"/>
+        <p>La parcela tiene mucha conexión con la naturaleza por el espacio sobrante sin construcción u ocupación, y por la cantidad de vegetación que hay en el terreno. <br><br><br>La posición de la casa se puede observar desde el ingreso de la misma, en este caso el ingreso a la propiedad sería desde el oeste, por lo que podemos deducir que el largo del terreno es de sur a norte.
+        <br><br><br>La casa quinta fue pensada en una intensa relación arquitectura/paisaje, manifestándose en una secuencia espacial de jardines, que articulan el conjunto, expresando las características fito-geográficas de la región.
         </div>
         <div class="info2-2">
         <p>
-        Por qué "celulas" casi separadas? Ya que este proyecto esta sin terminar, es decir que se quiere ampliar en un futuro, se plantea que cada celula tenga su función en particular, y que en la futura ampliación se agreguen nuevas celulas con su respectiva activdad principal.
-        <br><br><br>
-        El aspecto más significativo de este proyecto es sin duda su forma, la idea de "Átomo", la cual la hace una vivienda muy particular, con techos a distintas alturas, distintas formas, un patio central que reune todos los locales y el propio ingreso, es un proyecto que va a destacar entre las viviendas de sus futuros vecinos.
+        El aspecto más significativo de esta vivienda es el anhelo por un espacio en contacto con la naturaleza, nos podemos dar una imagen de arribar en un ambiente en donde predominara el “verde”.
+        <br><br>
+       
         </p>
         
         </div>
-         <div class="info3"><img src="/assets/cucu.jpg" alt="">
+         <div class="info3"><img src="/assets/galeria3/04.jpg" alt="">
          <p>
-         Podemos observar, el ingreso a esta vivienda lleva directamente a una especie de patio interior el cual conecta el interior con el exterior, y a su vez, este patio conecta todas las partes de la casa, en la imagen se observa la composicion de la vivienda.<br><br>
-         los espacios de la vivienda estan unidos entre si por el mismo patio interior, este patio interior tiene el ingreso general y se cierra al fondo, haciendo la forma que se ve en la imagen, a su vez cada local esta conectado mediante vanos, los locales que apuntan al patio trasero tienen salida a este.
+         La geometría de los exteriores de la quinta es interesante, con distintas formas y materiales, mezclados con la naturaleza le dan un aspecto hermoso.
          </p>
          </div>
+          
           <div class="info4">
-          <img src="/assets/estarComedor.jpg" alt="">
-          <p>En una de las celulas de esta vivienda podemos observar un Estar-Comedor bastante amplio, con un sofá mirando hacia un televisor, y una mesa comedor , el techo a gran altura y aumentando hacia un lado da una sensacion de que el lugar es más amplio, complementando con el ventanal que da a su patio, por el cual tambien entra mucha luz natural.
-</p></div>
-          <div class="info5">
-          <img src="/assets/cocina1.jpg" alt="">
-          <p>En cuanto a la cocina, podemos observar que tiene un aspecto muy moderno, con el techo siguiendo la forma general y rompiendo el paralelismo común de techo-piso.
-          <br><br>
-          La cocina tiene un buen aprovechamiento del espacio, con una isla con horno, muebles suficientes y espacio para que al menos 2 personas puedan cocinar cómodas.
+          <img src="/assets/galeria3/galeria.jpg" alt="">
+          <p>En la imagen podemos observar una galeria del lado izquierdo, la cual tiene un azador, a su vez este mismo se mezcla con la morfología del techo, dando una forma rara pero agradable, y que se integra con el paisaje.<br><br> La galería tiene focos para iluminar en las noches, y espacio suficiente para las actividades.
           </p>
           </div>
+          <div class="info5">
+          <img src="/assets/galeria3/galeria2.jpg" alt="">
+          <p>la parte más abierta de la galería da una visual a la pileta, y a la naturaleza que rodea la vivienda.
+</p></div>
           <div class="info6">
-          <img src="/assets/galeria1.jpg" alt="">
+          <img src="/assets/galeria3/galeria3.jpg" alt="">
           
-          <p>En su patio se puede observar una galería, no muy amplia, pero con una mesa para compartir actividades en familia o con amigos fuera de un lugar cerrado, esta galería no es la excepción en cuanto al techo lo que permite seguir con la estética de la casa, tiene buena iluminacion de noche y los acabados en madera hacen que se vea agradable.</p>
-          <img src="/assets/galeria2.jpg" alt="">
+          <p>Otra vista de la galería, se puede observar la pileta, el azador y una cochera.<br><br> El azador con una enredadera lo cual le da un aspecto mas natural, y el techo de la galería inclinado hacia arriba da una sensación de mayor espacio.
+          
+          </p>
+          <img src="/assets/galeria3/entrada.jpg" alt="">
+          <p>En la imagen de arriba se ve el ingreso a la quinta, el cual da directamente a la galería, y al costado un patio pequeño</p>
           </div>
           <div class="info7">
-          <p>Los recorridos de la vivienda son bastantes dinámicos, se observa bastante comodidad en este aspecto</p>
-          <img src="/assets/recorrido1.jpeg" alt="">
+          <p>En la imagen se ven los recorridos de la vivienda, desde el ingreso tenemos acceso directo a la galería con asador, y desde allí podemos ir al patio con pileta, o bien al interior de la vivienda</p>
+          <img src="/assets/recorrido3.jpeg" heigth="200px">
           </div>
-          <div class="info8">
-          <a href="/assets/galeria1/galeria1.rar" download="foto1">Descargar galeria <span>(.rar)</span></a>
+          <div class="info8 btnD">
+          <a href="/assets/galeria3/gal3.rar" download="Galería de la vivienda 3.rar">Descargar galeria <span>(.rar)</span></a>
           </div>
 
       </div>`;
